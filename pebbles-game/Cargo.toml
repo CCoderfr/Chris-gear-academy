@@ -1,1 +1,7 @@
+[package]
+name = "pebblles-game"
+verson = "0.1.0"
+edition = "2024"
 
+[depenencies]
+gstd = { git = 
