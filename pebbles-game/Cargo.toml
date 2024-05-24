@@ -1,7 +1,12 @@
 [package]
 name = "pebblles-game"
-verson = "0.1.0"
-edition = "2024"
+verson = "v0.1.0"
+edition = "2021"
 
 [depenencies]
-gstd = { git = 
+gstd = { git = "https://github.com/gear-tech/gear.git", tag = "v1.2.0" }
+pebbles-game-io.path = "io"
+
+[build_depenencies]
+gear-wasm-builder = { git = "https://github.com/gear-tech/gear.git", tag = "v1.2.0" }
+pebbles-game-io.path = "io"
